@@ -17,3 +17,13 @@ Os dados (amostra) foram coletados em São Paulo - Brasil, em uma área universi
     <li><b>fds</b> - Final de Semana (1 = Sim; 0 = Não)</li>
     <li><b>consumo</b> - Consumo de Cerveja (litros)</li>
 </ul>
+
+## Interpretação dos Coeficientes Estimados
+
+Excluindo o efeito das variáveis explicativas ($X_2=X_3=X_4=0$) o efeito médio no Consumo de Cerveja seria de 5951,98 litros
+
+Temperatura Máxima (°C)→ Mantendo-se os valores de $X_3$ (Chuva) e $X_4$ (Final de Semana) constantes, o acréscimo de 1°C na Temperatura Máxima gera uma variação média no Consumo de Cerveja de 684,74 litros
+
+Chuva (mm) → Mantendo-se os valores de $X_2$ (Temperatura Máxima) e $X_4$ (Final de Semana) constantes, o acréscimo de 1mm de Chuva gera uma variação média no Consumo de Cerveja de -60,78 litros
+
+Final de Semana (Sim/Não) → Mantendo-se os valores de $X_2$ (Temperatura Máxima) e $X_3$ (Chuva) constantes, o fato de o dia ser classificado como Final de Semana gera uma variação média no Consumo de Cerveja de 5401,08 litros
